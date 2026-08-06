@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anthony Adesanwo — Cloud &amp; DevOps</title>
+  <meta name="description"
+    content="Anthony Adesanwo — Cloud & DevOps engineer in training. MSci Computer Science, University of Essex. AWS, Azure & OCI.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body class="is-preload">
+
+  <!-- Slim nav, revealed after scrolling past the hero -->
+  <div class="topbar" aria-label="Section navigation">
+    <a class="home" href="#top">A.A</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+  </div>
+
+  <!-- ---------- Hero ---------- -->
+  <div class="hero" id="top">
+    <div class="hero-content" id="heroContent">
+
+      <div class="socials">
+        <a class="avatar" href="https://github.com/MobiusXXF" aria-label="Anthony's GitHub profile">
+          <!-- GitHub mark (MIT-licensed Octicons path) -->
+          <svg viewBox="0 0 16 16" aria-hidden="true">
+            <path
+              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z" />
+          </svg>
+        </a>
+      </div>
+
+      <div class="stem stem-top" aria-hidden="true"></div>
+      <div class="crossbar bar-top" aria-hidden="true"></div>
+
+      <h1>Anthony Adesanwo</h1>
+      <p class="tagline">Cloud &amp; DevOps · MSci Computer Science</p>
+
+      <div class="crossbar bar-bottom" aria-hidden="true"></div>
+      <div class="stem stem-bottom" aria-hidden="true"></div>
+
+      <nav class="hero-nav" aria-label="Site sections">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+      </nav>
+
+    </div>
+    <div class="scroll-hint" aria-hidden="true">Scroll</div>
+  </div>
+
+  <!-- ---------- Sections ---------- -->
+
+  <section id="projects">
+    <div class="card">
+      <div class="drift">
+        <h2>Projects</h2>
+
+        <div class="project">
+          <h3>Customer Support Triage — RAG on OCI</h3>
+          <p class="meta">Hackathon · Team project</p>
+          <p>Retrieval-augmented triage system: support tickets are embedded, matched against a knowledge base with
+            native vector search, and routed with generated context for agents. Built contract-first with shared
+            Pydantic schemas across the team.</p>
+          <div class="chips">
+            <span>OCI Gen AI</span><span>Autonomous DB 23ai</span><span>Vector
+              Search</span><span>FastAPI</span><span>Pydantic</span><span>Container Instances</span>
+          </div>
+        </div>
+
+        <a href="https://github.com/MobiusXXF/Portfolio" style="text-decoration: none;">
+          <div class="project">
+            <h3>Portfolio Website</h3>
+            <p class="meta">Hand-built · No frameworks</p>
+            <p>A dependency-free static site with a scroll-driven parallax layout and staggered intro sequence. Written
+              from scratch — no template.</p>
+            <div class="chips">
+              <span>HTML</span><span>CSS</span><span>Vanilla JS</span><span>IntersectionObserver</span>
+            </div>
+          </div>
+        </a>
+
+        <a class="ghost-link" href="https://github.com/MobiusXXF">View GitHub →</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="card">
+      <div class="drift">
+        <h2>Skills</h2>
+
+        <h3>Cloud Platforms</h3>
+        <div class="skill">
+          <div class="skill-row"><span class="skill-name">AWS</span><span class="skill-note">Cloud Practitioner · SAA in
+              progress</span></div>
+          <div class="meter"><i style="--w:0.8"></i></div>
+        </div>
+        <div class="skill">
+          <div class="skill-row"><span class="skill-name">Azure</span><span class="skill-note">AZ-900 certified</span>
+          </div>
+          <div class="meter"><i style="--w:0.6"></i></div>
+        </div>
+        <div class="skill">
+          <div class="skill-row"><span class="skill-name">OCI</span><span class="skill-note">Gen AI · Autonomous DB ·
+              Containers</span></div>
+          <div class="meter"><i style="--w:0.55"></i></div>
+        </div>
+
+        <h3>Programming</h3>
+        <div class="skill">
+          <div class="skill-row"><span class="skill-name">Python</span><span class="skill-note">FastAPI · automation ·
+              data</span></div>
+          <div class="meter"><i style="--w:0.8"></i></div>
+        </div>
+        <div class="skill">
+          <div class="skill-row"><span class="skill-name">SQL</span><span class="skill-note">Relational · vector
+              (23ai)</span></div>
+          <div class="meter"><i style="--w:0.7"></i></div>
+        </div>
+        <div class="skill">
+          <div class="skill-row"><span class="skill-name">JavaScript</span><span class="skill-note">Vanilla · web
+              fundamentals</span></div>
+          <div class="meter"><i style="--w:0.6"></i></div>
+        </div>
+
+        <h3>Tooling &amp; Practices</h3>
+        <div class="chips">
+          <span>Git &amp; GitHub</span><span>CI/CD</span><span>Ansible</span><span>REST
+            APIs</span><span>Pydantic</span><span>Contract-first</span><span>Linux</span>
+        </div>
+
+        <h3>Languages</h3>
+        <div class="chips">
+          <span>English — fluent</span><span>Yoruba — fluent</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="card">
+      <div class="drift">
+        <h2>Experience</h2>
+        <div class="timeline">
+          <div class="tl-item">
+            <h3>Ocado</h3>
+            <p class="meta">Logistics Operations</p>
+            <p>High-throughput warehouse operations in one of the UK's most automated fulfilment environments.</p>
+          </div>
+          <div class="tl-item">
+            <h3>Amazon</h3>
+            <p class="meta">Fulfilment Operations</p>
+            <p>Fast-paced logistics at scale, working to strict accuracy and safety targets.</p>
+          </div>
+          <div class="tl-item">
+            <h3>Verisure</h3>
+            <p class="meta">Security Sales</p>
+            <p>Direct customer-facing sales of monitored security systems — consultative selling and objection handling.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="card">
+      <div class="drift">
+        <h2>About</h2>
+        <p>I moved into technology from a background in therapeutic science, teaching myself web development, Python,
+          SQL and cloud platforms before starting my MSci in Computer Science at the University of Essex. I'm building
+          toward cloud and DevOps engineering, with hands-on projects across AWS, Azure and OCI.</p>
+        <p style="margin-top:0.8rem">Outside CS, I am studying electrical engineering for the fun of it.</p>
+        <p style="margin-top:0.8rem"><a href="https://github.com/MobiusXXF">GitHub</a> · <a
+            href="https://linkedin.com/in/anthonyadesanwo">LinkedIn</a> · <a
+            href="https://instagram.com/the.devant">Instagram</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="card">
+      <div class="drift">
+        <h2>Education</h2>
+        <div class="timeline">
+          <div class="tl-item">
+            <h3>MSci Computer Science</h3>
+            <p class="meta">University of Essex · 2024 – 2028</p>
+          </div>
+          <div class="tl-item">
+            <h3>DFE Software Development Bootcamp (Level 4)</h3>
+            <p class="meta">QA</p>
+          </div>
+          <div class="tl-item">
+            <h3>AWS re/Start</h3>
+            <p class="meta">TechTalent Academy</p>
+          </div>
+        </div>
+        <h3 style="margin-top:1.8rem">Certifications</h3>
+        <div class="badges">
+          <div class="badge"><strong>AWS CCP</strong><span>Cloud Practitioner</span></div>
+          <div class="badge"><strong>AZ-900</strong><span>Azure Fundamentals</span></div>
+          <div class="badge pending"><strong>AWS SAA</strong><span>In progress</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>&copy; Anthony Adesanwo. All rights reserved.</footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
