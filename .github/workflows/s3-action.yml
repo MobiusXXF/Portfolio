@@ -33,4 +33,4 @@ jobs:
         run: |
           aws cloudfront create-invalidation --distribution-id ######## --paths "/*"
   
-    if: false
+    if: true
