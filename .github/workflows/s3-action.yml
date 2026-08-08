@@ -29,8 +29,8 @@ jobs:
       # Optional: Invalidate CloudFront Cache if using it
       # Replace ######## with your actual distribution ID
       - name: Invalidate CloudFront
-        if: false # Change to true if you want to use this
+        if: true # Change to true if you want to use this
         run: |
-          aws cloudfront create-invalidation --distribution-id ######## --paths "/*"
+          aws cloudfront create-invalidation --distribution-id E1A527RE7AGMRJ --paths "/*"
   
     if: true
