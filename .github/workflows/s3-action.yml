@@ -24,7 +24,7 @@ jobs:
 
       - name: Upload root directory to S3
         run: |
-          aws s3 sync ./ s3://anthonyadesanwo.me/ --delete
+          aws s3 sync ./ s3://portfolio-916743723463-eu-west-2-an --delete
 
       # Optional: Invalidate CloudFront Cache if using it
       # Replace ######## with your actual distribution ID
