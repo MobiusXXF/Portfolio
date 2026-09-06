@@ -15,3 +15,9 @@ Brief:
     - Origin Access Control (OAC)
     - Edge caching
     - DNS
+
+
+
+## AWS Architectural Diagram
+
+![Project One](./images/architectural_diagram.png)
