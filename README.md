@@ -8,7 +8,7 @@ Brief:
 - S3 + CloudFront + Route 53 + ACM for HTTPS
 - Host new updated porfolio/resume
 - Add CI/CD:
-    - Github Actions upload to S3 on push/pull request
+    - GitHub Actions upload to S3 on push/pull request
 
 - Project covers:
     - S3 policies
